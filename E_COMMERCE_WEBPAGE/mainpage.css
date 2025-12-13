@@ -39,6 +39,7 @@ html, body {
 }
 .cont:hover{
     background-color: rgba(18, 233, 249, 0.463);
+    transform: translate3d(2px-8px);
 }
 .right{
     display: flex;
@@ -60,7 +61,7 @@ html, body {
 }
 .box:hover{
     background-color: rgba(18, 233, 249, 0.463);
-    transform: translate3d(2px-8px) 
+    transform: translate3d(2px-8px); 
 }
 img{
     margin-top: 50px;
