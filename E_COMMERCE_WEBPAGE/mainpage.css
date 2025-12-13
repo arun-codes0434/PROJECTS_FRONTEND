@@ -1,8 +1,9 @@
 body {
   background-image: url(background.jpg);
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100% auto;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 html, body {
   margin: 0;
@@ -29,12 +30,15 @@ html, body {
     line-height: 1px;
     display: grid;
     gap: 90px;
-    padding-left: 300px;
+    padding-left: 690px;
 }
 .cont{
-    width: 90%;
+    width: 70%;
     border-radius: 10%;
     background-color: rgba(7, 32, 35, 0.436);
+}
+.cont:hover{
+    background-color: rgba(18, 233, 249, 0.463);
 }
 .right{
     display: flex;
@@ -48,9 +52,15 @@ html, body {
     gap: 50px;
 }
 .box{
+    box-shadow: 20px 20px;
     border-radius: 10%;
     width: 800px;
     background-color: rgba(32, 130, 147, 0.607);
+    transition-duration: .2s;
+}
+.box:hover{
+    background-color: rgba(18, 233, 249, 0.463);
+    transform: translate3d(2px-8px) 
 }
 img{
     margin-top: 50px;
@@ -67,15 +77,19 @@ h1{
     text-align: center;
 }
 .name{
+     animation-direction: alternate-reverse;
     text-align: center;
-    font-size: 100px;
     margin-bottom: 0;
     color: rgba(5, 10, 12, 0.849);
 }
 #name{
+    text-shadow: 20px 20px rgb(12, 59, 79);
     padding-left: 10px;
     margin-left: 500px;
     padding-right: 550px;
     text-align: center;
     font-size: 500px;
+}
+#lit{
+    line-height: 150px;
 }
