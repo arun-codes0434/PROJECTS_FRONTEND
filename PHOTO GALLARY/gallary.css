@@ -1,0 +1,20 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#gallary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 10px;
+}
+#main img {
+    width: 50%;
+    height: 2%;
+}
